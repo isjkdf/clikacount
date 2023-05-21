@@ -1,0 +1,159 @@
+* {
+font-family: 'Roboto', sans-serif;
+  }
+  body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+  }
+  h1 {
+text-transform: uppercase;
+color: salmon;
+  }
+button {
+  background-color: salmon;
+  color: #fff;
+  background: #4080ff;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  border: 0px;
+  width: 100%;
+}
+label {
+  margin-top: 10px;
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+input {
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  outline-color: salmon;
+  border-color: rgba(0, 0, 0, .07) rgba(0, 0, 0, .11) rgba(0, 0, 0, .18);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+div {
+  width: 100%;
+  height: auto;
+}
+.base {
+  max-width: 370px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px #888888;
+  background: #FFFFFF;
+  outline-color: salmon;
+  border-color: rgba(0, 0, 0, .07) rgba(0, 0, 0, .11) rgba(0, 0, 0, .18);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+}
+table {
+  border: solid 1px #DDEEEE;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+table thead th {
+background-color: #DDEFEF;
+border: solid 1px #DDEEEE;
+color: #336B6B;
+padding: 10px;
+text-align: left;
+text-shadow: 1px 1px 1px #fff;
+text-decoration: none;
+}
+table tbody td {
+border: solid 1px #DDEEEE;
+color: #333;
+padding: 10px;
+text-shadow: 1px 1px 1px #fff;
+}
+a {
+  background-color: salmon;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+textarea {
+  width:100%;
+}
+.header-1 img {
+  max-width: 20%
+}
+.base input {
+  margin-bottom: 10px;
+}
+.languange {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+
+}
+.languange .l-1 {
+  width: 50%;
+  float: left;
+}
+/* On screens that are 992px wide or less*/
+@media screen and (max-width: 992px) {
+    .header-1 img {
+      max-width: 20%
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .header-1 img {
+      max-width: 40%
+    }
+}
+.caution {
+    max-width: 90%;
+    margin: 10px auto;
+    font-size: small;
+    border-radius: 3px;
+    padding: 7px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border:1px solid;
+}
+.input select {
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f5f6f7;
+  outline-color: red;
+  border-color: rgba(0, 0, 0, .07) rgba(0, 0, 0, .11) rgba(0, 0, 0, .18);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 4px;
+}
+.caution-good {
+  max-width: 90%;
+    margin: 10px auto;
+    font-size: small;
+    border-radius: 3px;
+    padding: 7px;
+    color: #721c24;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
